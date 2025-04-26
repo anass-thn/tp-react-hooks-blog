@@ -224,3 +224,20 @@ Exemple : `https://dummyjson.com/posts/tag/history`
 - Pour implémenter le défilement infini, chargez plus de posts quand l'utilisateur atteint le bas de la page
 - Pour la recherche, utilisez le point d'entrée `/posts/search` avec le paramètre `q`
 - Vous pouvez combiner les paramètres de recherche avec les paramètres de pagination
+
+
+
+Exiercice 1:
+-Création du Hook usePosts
+J'ai utilisé useState pour stocker les posts, le chargement .
+
+-Création du composant PostList
+
+-Création du composant PostSearch
+
+
+-Utilisation dans App.js
+Dans App.js, j'ai affiché le composant PostSearch .
+
+voir fichier(capture d'ecran/capture 1
+            capture d'ecran/capture 1f)
