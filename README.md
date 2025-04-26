@@ -241,3 +241,8 @@ Dans App.js, j'ai affiché le composant PostSearch .
 
 voir fichier(capture d'ecran/capture 1
             capture d'ecran/capture 1f)
+
+Exercice 2:
+-usedebounce : ce hook permet de retarder l execution de la recherche pour optimise l application
+-uselocalstorage : ce hook permet de sauvegarder et recuperer les donnees  du navigateur
+

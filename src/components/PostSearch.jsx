@@ -1,14 +1,17 @@
 import React, { useState } from 'react';
 import usePosts from '../hooks/usePosts';
+import useDebounce from '../hooks/useDebounce'; 
 
 const PostSearch = () => {
   const { posts, loading, error } = usePosts();
   const [searchTerm, setSearchTerm] = useState('');
 
+  const debouncedSearchTerm = useDebounce(searchTerm, 500); 
+
   const filteredPosts = posts.filter(
     (post) =>
-      post.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      post.body.toLowerCase().includes(searchTerm.toLowerCase())
+      post.title.toLowerCase().includes(debouncedSearchTerm.toLowerCase()) ||
+      post.body.toLowerCase().includes(debouncedSearchTerm.toLowerCase())
   );
 
   if (loading) return <p>Chargement des posts...</p>;
