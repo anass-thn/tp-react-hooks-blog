@@ -55,3 +55,12 @@ body,
 }
 
 /* TODO: Exercice 3 - Ajouter des styles spécifiques au mode sombre */
+body.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark {
+  background-color: #222222;
+  color: #ffffff;
+}

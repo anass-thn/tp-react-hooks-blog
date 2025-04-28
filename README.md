@@ -246,3 +246,10 @@ Exercice 2:
 -usedebounce : ce hook permet de retarder l execution de la recherche pour optimise l application
 -uselocalstorage : ce hook permet de sauvegarder et recuperer les donnees  du navigateur
 
+Exercice 3:
+-creer le themeContext pour un theme dans l application
+-ajout d un Themetoggle pour channger du mode sombre  au mode clair ou le contraire
+-utilisation de useMemo pour memoriser les styles du theme
+-utilisation du useCallBack pour optimisation
+voir fichier(capture d'ecran/mode_clair
+            capture d'ecran/mode_sombre)
